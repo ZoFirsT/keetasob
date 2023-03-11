@@ -5,6 +5,9 @@
     box-sizing: border-box;
   }
   
+  body{
+    margin-left: 350px;
+  }
   
   .header {
     overflow: hidden;
@@ -113,10 +116,11 @@
   }
   
   footer {
-    position: absolute;
+    margin-left: 200px;
+    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 80%;
     background-color: #f8f9fa;
     padding: 1rem;
     text-align: center;
